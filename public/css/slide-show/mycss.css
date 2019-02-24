@@ -1,0 +1,303 @@
+.my-section{
+	text-align: center;
+    height: 700px;
+    overflow: hidden;
+	/*margin-bottom: 50px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;*/
+}
+
+.my-tab-content{
+	position: relative;
+}
+
+.my-blocks{
+	/*display: flex;
+	justify-content: center;*/
+	position: relative;
+	display: inline-block;
+	border: none;
+	
+/*	margin: 0 auto;
+	position: relative;
+	overflow: hidden;*/
+}
+
+.in-li-hover{
+	width: 100%;
+	height: 100%;
+}
+
+.my-block-1, .my-block-2, .my-block-3, .my-block-4{
+	top: 114px;
+}
+
+.my-blocks li:not(.content-li){
+	position: relative;
+	width: 110px;
+	height: 110px;
+    background-color: #c2000c;
+	margin-left: 10px;
+	color: white;
+	padding-top: 20px;
+	list-style-type: none;
+}
+
+.my-blocks li:hover{
+	cursor: pointer;
+}
+
+.my-blocks li h2{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.tab-logo{
+	max-height: 50px;
+	max-width: 50px;
+	text-align: center;
+}
+
+.my-blocks li:first-child:hover {
+	background-color: #5fa24b;
+}
+
+.my-blocks li:nth-child(2):hover {
+	background-color: #7c7c96;
+}
+
+.block-content ul li{
+	color: white;
+	font-weight: bold;
+}
+
+.my-blocks li:nth-child(3):hover {
+	background-color: #337ca6;
+}
+
+.my-blocks li:nth-child(4):hover {
+	background-color: #e2c312;
+}
+
+.my-blocks li:hover{
+	margin-bottom: 0;
+	height: 114px;
+}
+
+.my-block-1{
+	position: absolute;
+	background-color: #8ed877;
+	width: 3000px;
+	height: auto;
+	right: -360px;
+	text-align: right;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.my-block-2{
+	position: absolute;
+	background-color: blue;
+	width: 3000px;
+	height: auto;
+	text-align: left;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.my-block-3{
+	position: absolute;
+	background-color: yellow;
+	width: 3000px;
+	height: auto;
+	text-align: left;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+	left: -240px;
+}
+
+.my-block-4{
+	position: absolute;
+	background-color: green;
+	right: -330px;
+	width: 800px;
+	height: auto;
+	text-align: left;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.block-content{
+	margin: 40px;
+}
+
+.block-content img{
+	height: 100px !important;
+	width: 100px !important;
+}
+
+.line{
+	position: absolute;
+	z-index: -100;
+}
+
+.line-vertical{
+	width: 1px;
+	height: 3000px;
+}
+
+.line-horizontal{
+	width: 3000px;
+	height: 1px;
+}
+
+/* LINES FIRST BLOCK */
+.my-blocks li:first-child .item-lines .line{
+	background-color: #8ed877;
+	display: none;
+}
+
+.my-blocks li:first-child .item-lines .line-1{
+	top: 0;
+	left: 465px;
+}
+
+.my-blocks li:first-child .item-lines .line-2{
+	top: 109px;
+	left: 465px;
+}
+
+.my-blocks li:first-child .item-lines .line-3{
+	top: 273px;
+	left: 351px;
+}
+
+.my-blocks li:first-child .item-lines .line-4{
+	top: 287px;
+	left: 114px;
+}
+
+.my-blocks li:first-child .item-lines .line-5{
+	top: 287px;
+	left: 338px;
+}
+
+/* LINES FIRST BLOCK */
+
+/* LINES SECOND BLOCK */
+
+.my-blocks li:nth-child(2) .item-lines .line{
+	background-color: #fff;
+	display: none;
+}
+
+.my-blocks li:nth-child(2) .item-lines .line-1{
+	top: 109px;
+	right: 351px;
+}
+
+.my-blocks li:nth-child(2) .item-lines .line-2{
+	top: 313px;
+	right: 123px;
+}
+
+.my-blocks li:nth-child(2) .item-lines .line-3{
+	top: 287px;
+	right: 109px;
+}
+
+.my-blocks li:nth-child(2) .item-lines .line-4{
+	top: 287px;
+	right: 0;
+}
+
+/* LINES SECOND BLOCK */
+
+/* LINES THIRD BLOCK */
+
+.my-blocks li:nth-child(3) .item-lines .line{
+	background-color: #71c5f5;
+	display: none;
+}
+
+.my-blocks li:nth-child(3) .item-lines .line-1{
+	top: 109px;
+	right: 351px;
+}
+
+.my-blocks li:nth-child(3) .item-lines .line-2{
+	top: 273px;
+	right: 123px;
+}
+
+.my-blocks li:nth-child(3) .item-lines .line-3{
+	top: 287px;
+	right: 109px;
+}
+
+.my-blocks li:nth-child(3) .item-lines .line-4{
+	top: 287px;
+	left: 140px;
+}
+
+/* LINES THIRD BLOCK */
+
+/* LINES FOURTH BLOCK */
+
+.my-blocks li:nth-child(4) .item-lines .line{
+	background-color: #eacf36;
+	display: none;
+}
+
+.my-blocks li:nth-child(4) .item-lines .line-1{
+	top: 0;
+	left: 123px;
+}
+
+.my-blocks li:nth-child(4) .item-lines .line-2{
+	bottom: 123px;
+	right: 0;
+}
+
+.my-blocks li:nth-child(4) .item-lines .line-3{
+	top: 273px;
+	left: 123px;
+}
+
+.my-blocks li:nth-child(4) .item-lines .line-4{
+	top: 287px;
+	left: 109px;
+}
+
+/* LINES FOURTH BLOCK */
+
+
+.block-content{
+	display: inline-block;
+}
+
+.block-design, .block-front-end, .block-back-end, .block-misc{
+	width: 110px;
+	height: 110px;
+	background-color: green;
+	margin: 2px;
+	text-align: center;
+}
+
+.more-design{
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	background-color: blue;
+	height: 100px;
+	width: 986px;
+}
+
