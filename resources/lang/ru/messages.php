@@ -10,6 +10,7 @@ return [
     'menu.portfolio' => 'Портфолио',
     'menu.courses' => 'Курсы',
     'menu.contacts' => 'Контакты',
+    'menu.blog' => 'Блог',
 
     'intro.design' => 'Веб-дизайн',
     'intro.design.description' => 'Мы занимаемся разработкой:',

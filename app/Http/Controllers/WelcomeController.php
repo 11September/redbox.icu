@@ -21,6 +21,16 @@ class WelcomeController extends Controller
         return view('portfolio', compact('portfolios'));
     }
 
+    public function blog()
+    {
+        return view('blog');
+    }
+
+    public function post()
+    {
+        return view('post');
+    }
+
     public function about()
     {
         return view('about');

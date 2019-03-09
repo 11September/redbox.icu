@@ -11,6 +11,7 @@ return [
     'menu.portfolio' => 'Portfolio',
     'menu.courses' => 'Courses',
     'menu.contacts' => 'Contacts',
+    'menu.blog' => 'Blog',
 
 //    Intro services
     'intro.design' => 'Web design',

@@ -28,12 +28,17 @@
                             </a>
                         </li>
                         <li class="js_nav-item nav-item">
-                            <a class="nav-item-child nav-item-hover {{ Request::is('portfolio') ? 'active' : '' }}" href="{{ url('portfolio') }}" href="{{ url('portfolio') }}">
+                            <a class="nav-item-child nav-item-hover {{ Request::is('portfolio') ? 'active' : '' }}" href="{{ url('portfolio') }}">
                                 @lang('messages.menu.portfolio')
                             </a>
                         </li>
                         <li class="js_nav-item nav-item">
-                            <a class="nav-item-child nav-item-hover {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}" href="{{ url('contact') }}">
+                            <a class="nav-item-child nav-item-hover {{ Request::is('blog') ? 'active' : '' }}" href="{{ url('blog') }}">
+                                @lang('messages.menu.blog')
+                            </a>
+                        </li>
+                        <li class="js_nav-item nav-item">
+                            <a class="nav-item-child nav-item-hover {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">
                                 @lang('messages.menu.contacts')
                             </a>
                         </li>
@@ -47,12 +52,6 @@
                             <a href="{{ url('/language/ru') }}"
                                class="nav-item-child nav-item-hover language @if ( Config::get('app.locale') == 'ru') active-language @endif">
                                 @lang('messages.menu.language.ru')
-                            </a>
-                        </li>
-                        <li class="js_nav-item nav-item">
-                            <a href="{{ url('/language/no') }}"
-                               class="nav-item-child nav-item-hover language @if ( Config::get('app.locale') == 'no') active-language @endif">
-                                @lang('messages.menu.language.no')
                             </a>
                         </li>
                     </ul>
