@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 24 2019 г., 22:26
+-- Время создания: Мар 11 2019 г., 08:32
 -- Версия сервера: 5.7.19
 -- Версия PHP: 7.1.7
 
@@ -446,6 +446,7 @@ INSERT INTO `permission_role` (`permission_id`, `role_id`) VALUES
 (38, 1),
 (39, 1),
 (40, 1),
+(41, 1),
 (42, 1),
 (43, 1),
 (44, 1),
@@ -588,16 +589,17 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `display_name`, `value`, `details`, `type`, `order`, `group`) VALUES
-(1, 'site.title', 'Site Title', 'Site Title', '', 'text', 1, 'Site'),
-(2, 'site.description', 'Site Description', 'Site Description', '', 'text', 2, 'Site'),
-(3, 'site.logo', 'Site Logo', '', '', 'image', 3, 'Site'),
-(4, 'site.google_analytics_tracking_id', 'Google Analytics Tracking ID', '', '', 'text', 4, 'Site'),
-(5, 'admin.bg_image', 'Admin Background Image', '', '', 'image', 5, 'Admin'),
-(6, 'admin.title', 'Admin Title', 'Voyager', '', 'text', 1, 'Admin'),
-(7, 'admin.description', 'Admin Description', 'Welcome to Voyager. The Missing Admin for Laravel', '', 'text', 2, 'Admin'),
-(8, 'admin.loader', 'Admin Loader', '', '', 'image', 3, 'Admin'),
-(9, 'admin.icon_image', 'Admin Icon Image', '', '', 'image', 4, 'Admin'),
-(10, 'admin.google_analytics_client_id', 'Google Analytics Client ID (used for admin dashboard)', '', '', 'text', 1, 'Admin');
+(1, 'site.title', 'Site Title', 'Redbox', '', 'text', 1, 'Site'),
+(2, 'site.description', 'Site Description', 'Redbox', '', 'text', 2, 'Site'),
+(3, 'site.logo', 'Site Logo', '', '', 'image', 6, 'Site'),
+(4, 'site.google_analytics_tracking_id', 'Google Analytics Tracking ID', NULL, '', 'text', 7, 'Site'),
+(5, 'admin.bg_image', 'Admin Background Image', 'settings\\March2019\\AKaWeOPdjkzWyFbLJGVp.jpg', '', 'image', 5, 'Admin'),
+(6, 'admin.title', 'Admin Title', 'Redbox', '', 'text', 1, 'Admin'),
+(7, 'admin.description', 'Admin Description', 'Welcome to Redbox.', '', 'text', 2, 'Admin'),
+(8, 'admin.loader', 'Admin Loader', 'settings\\March2019\\Kb1JO4dcH8IThn1rDe86.png', '', 'image', 3, 'Admin'),
+(9, 'admin.icon_image', 'Admin Icon Image', 'settings\\March2019\\gh8iN3GAnVaoOhvCwxWA.png', '', 'image', 4, 'Admin'),
+(10, 'admin.google_analytics_client_id', 'Google Analytics Client ID (used for admin dashboard)', NULL, '', 'text', 1, 'Admin'),
+(12, 'site.keywords', 'Site Keywords', 'Site Keywords', NULL, 'text_area', 4, 'Site');
 
 -- --------------------------------------------------------
 
@@ -677,7 +679,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `role_id`, `name`, `email`, `avatar`, `email_verified_at`, `password`, `remember_token`, `settings`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Admin', 'admin@admin.com', 'users/default.png', NULL, '$2y$10$Z.nVkPcZZSJulksag1RXq.nVB8rF2yuxpeqHnKJN2bwis6ZThlyYm', '3xWQIWbjqMGfS2Us2vyikKMCYy2gb3ef8xTsBns1IXxMJcj4cT1TdUrmbdPg', NULL, '2019-02-24 16:40:57', '2019-02-24 16:40:57');
+(1, 1, 'Admin', 'admin@admin.com', 'users/default.png', NULL, '$2y$10$r3dp38Eezdl4XkGsWdz1HeThcdjlFURUiY9hFBFIEzPhDWf/tjeMG', '3xWQIWbjqMGfS2Us2vyikKMCYy2gb3ef8xTsBns1IXxMJcj4cT1TdUrmbdPg', '{\"locale\":\"ru\"}', '2019-02-24 16:40:57', '2019-02-24 19:29:56'),
+(2, 1, 'Stanislav', 'shiptya@icloud.com', 'users/default.png', NULL, '$2y$10$Rx2ygdeb2a3ElMFw6EgeFOFbapYFRuB6ZrryYkFAWPhqfZVyPaRN.', '6l10coahxFxfm1E5fxEt9ljUfMAhFAqtneIb6bwjM65DZbMwNNAgB8dJPI5u', NULL, '2019-03-09 20:50:55', '2019-03-09 20:50:55');
 
 -- --------------------------------------------------------
 
@@ -878,7 +881,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT для таблицы `settings`
 --
 ALTER TABLE `settings`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT для таблицы `translations`
 --
@@ -888,7 +891,7 @@ ALTER TABLE `translations`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --
