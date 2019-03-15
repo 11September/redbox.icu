@@ -175,43 +175,33 @@
                             </ul>
                         </div>
 
-                        <div class="widget wow fadeInUp">
-                            <div class="widget_title">instagram</div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                            <div class="thumb" style="margin-bottom:15px">
-                                <a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>
-                            </div>
-                        </div>
-
-                        <div class="widget wow fadeInUp">
-                            <div class="widget_title">archives</div>
-                            <ul class="list_2">
-                                <li><a href="">Jan-Feb 2015 <span>15</span></a></li>
-                                <li><a href="">Feb-Mar 2015 <span>22</span></a></li>
-                                <li><a href="">Mar-Apr 2015 <span>27</span></a></li>
-                                <li><a href="">Apr-May 2015 <span>30</span></a></li>
-                            </ul>
-                        </div>
+                        {{--<div class="widget wow fadeInUp">--}}
+                            {{--<div class="widget_title">instagram</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                            {{--<div class="thumb" style="margin-bottom:15px">--}}
+                                {{--<a href=""><img src="assets/img/thumb.jpg" alt="thumb"></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div><!-- end row -->
