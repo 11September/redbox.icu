@@ -33,11 +33,6 @@
                             </a>
                         </li>
                         <li class="js_nav-item nav-item">
-                            <a class="nav-item-child nav-item-hover {{ Request::is('blog') ? 'active' : '' }}" href="{{ url('blog') }}">
-                                @lang('messages.menu.blog')
-                            </a>
-                        </li>
-                        <li class="js_nav-item nav-item">
                             <a class="nav-item-child nav-item-hover {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">
                                 @lang('messages.menu.contacts')
                             </a>
